@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lobster', cursive;
+    font-family: 'Source Serif Pro', serif;
     margin: 0;
     /*font-family: 'EB Garamond', serif;*/
 }
@@ -15,6 +15,7 @@ h1 {
 
 h3 {
     font-size: 25px;
+    text-align: center;
 }
 
 p {
@@ -63,7 +64,7 @@ h2 {
 }
 
 .latest-work {
-    background-image: url(images/latest-work-bg.png);
+    background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
 }
 
@@ -73,22 +74,40 @@ h3 {
 
 h5 {
     text-align: center;
+    color: rgb(129, 129, 129);
+}
+
+#mailing h5 {
+    text-align: center;
+    color: white;
 }
 
 h6 {
     text-align: center;
+    font-weight: 400;
 }
 
-.footer {
-    background-image: url(images/footer-bg.png);
+.main-footer {
+    background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
 }
 
-.mailing {
-    margin: 50px;
-    padding: 20Px;
-    border-radius: 5px;
+.top-footer {
+    margin-bottom: 70px;
+}
+
+#mailing {
+    padding: 30px;
+    margin-left: 350px;
+    margin-right: 350px;
+    border-radius: 10px;
     color: white;
+    font-size: 20px;
     font-family: sans-serif;
-    background-color: rgb(255, 0, 43);
+    background-color: rgb(255, 32, 69);
+}
+
+.client-say {
+    text-align: center;
+    font-size: 35px;
 }
