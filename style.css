@@ -1,4 +1,94 @@
 body {
     font-family: 'Lobster', cursive;
+    margin: 0;
     /*font-family: 'EB Garamond', serif;*/
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.pink-color {
+    font-size: 55px;
+    color: rgb(245, 60, 91);
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+    margin-bottom: 50px;
+}
+
+.half-width {
+    width: 50%;
+    padding: 2%;
+    margin-bottom: 150px;
+    margin-left: 50px;
+    margin-right: 50px
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.top-banner {
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.link-button {
+    text-decoration: none;
+    padding: 15px 40px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    border-radius: 5px;
+    background-color: rgb(255, 0, 43);
+}
+
+h2 {
+    text-align: center;
+}
+
+.biography {
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+
+.latest-work {
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+
+h3 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+}
+
+.footer {
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+}
+
+.mailing {
+    margin: 50px;
+    padding: 20Px;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    background-color: rgb(255, 0, 43);
 }
