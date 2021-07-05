@@ -64,7 +64,7 @@ h2 {
 }
 
 .latest-work {
-    background-image: url(images/exp-bg.png);
+    background-image: url(images/latest-work-bg.png);
     background-repeat: no-repeat;
 }
 
@@ -88,7 +88,7 @@ h6 {
 }
 
 .main-footer {
-    background-image: url(images/exp-bg.png);
+    background-image: url(images/footer-bg.png);
     background-repeat: no-repeat;
 }
 
